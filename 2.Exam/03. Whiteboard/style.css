@@ -1,0 +1,278 @@
+body {
+    font-family: PT Sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    position: relative;
+    height: 450px;
+    width: 1000px;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgb(157,158,158, 0.1)),
+        url("image/computer-main.jpg"); */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgb(118,118,118, 0.1)),
+        url("image/computer-main.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top -150px;
+
+}
+
+
+
+header .header {
+    position: absolute;  
+    top: 0px;
+    width: 100%;
+}
+
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+    color: #fff;
+}
+
+.logo i {
+    font-size: 20px;
+}
+
+.shopping-cart {
+    display: flex;
+    gap: 5px;
+    color: #fff;
+}
+
+.shopping-cart i {
+    font-size: 20px;
+}
+
+.action {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.action i {
+    font-size: 20px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #fff;
+    /* z-index: 2; */
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.container button {
+    color: #fff;
+    background-color: #00d08e;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 10px 0px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+
+main {
+    height: 665px;
+}
+
+.cards {
+    height: 450px;
+    width: 1000px;
+}
+
+.first {
+    display: flex;
+}
+
+.card-left {
+    width: 50%;
+}
+
+.card-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-right .text-container {
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+.card-right h2, p {
+    margin-left: 30px;
+}
+
+.card-right ul {
+    list-style: none;
+}
+
+.card-right ul i {
+    margin-right: 20px;
+    color: #00d08e;
+}
+
+.second {
+    display: flex;
+}
+
+.second .card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-card-container {
+    display: grid;
+    gap: 30px;
+    width: 80%;
+    grid-template-areas: 
+    "card-one card-two card-three"
+    "card-fourth card-fifth card-sixth";
+}
+
+.card-left .small-card-first {
+    grid-area: card-one;
+    height: 75px;
+    width: 75px;
+}
+
+.card-left .small-card-second {
+    grid-area: card-two;
+    height: 75px;
+    width: 75px;
+}
+
+.card-left .small-card-third {
+    grid-area: card-three;
+    height: 75px;
+    width: 75px;
+}
+
+.card-left .small-card-fourth {
+    grid-area: card-fourth;
+    height: 75px;
+    width: 75px;
+}
+
+.card-left .small-card-fifth {
+    grid-area: card-fifth;
+    height: 75px;
+    width: 75px;
+}
+
+.card-left .small-card-sixth {
+    grid-area: card-sixth;
+    height: 75px;
+    width: 75px;
+}
+
+.card-left h2 {
+    margin-bottom: 20px;
+}
+
+.card-left .small-card-first, .small-card-second, .small-card-third, .small-card-fourth, .small-card-fifth, .small-card-sixth {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.small-card-container p {
+    color: #00d08e;
+    font-weight: bold;
+}
+
+.card-right {
+    width: 50%;
+}
+
+footer {
+    width: 1000px;
+    background-color: #b2f1dd;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.questions {
+    display: grid;
+    grid-template-areas: 
+    "question-one question-two question-three"
+    "question-four question-five question-six";
+}
+
+.question-one {
+    grid-area: question-one;
+}
+
+.question-two {
+    grid-area: question-two;
+}
+
+.question-three {
+    grid-area: question-three;
+}
+
+.question-four {
+    grid-area: question-four;
+}
+
+.question-five {
+    grid-area: question-five;
+}
+
+.question-six {
+    grid-area: question-six;
+}
+
+.footer h2 {
+    margin-top: 20px;
+}
+
+.question-one, .question-two, .question-three, .question-four, .question-five, .question-six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer span {
+    font-weight: bold;
+}
+
+.footer .email {
+    margin-bottom: 20px;
+}

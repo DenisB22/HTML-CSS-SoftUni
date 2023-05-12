@@ -1,0 +1,127 @@
+body {
+    background-image: url('images/background.png');
+    font-family: Mulish;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.container {
+    width: 900px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 20px 17px 10px 1px gray;
+
+}
+
+.container img {
+    width: 108%;
+    border-radius: 30px;
+}
+
+.registration-form {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    grid-template-areas: 
+    "h1 h1"
+    "fname-label lname-label"
+    "fname lname"
+    "email-label email-label"
+    "email email"
+    "password-label password-label"
+    "password password"
+    "confirm-label confirm-label"
+    "confirm confirm"
+    "privacy privacy"
+    "empty emtpy"
+    "button button";
+    width: 200px;
+}
+
+.heading-form {
+    grid-area: h1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fname-label {
+    grid-area: fname-label
+}
+
+.fname {
+    grid-area: fname;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.lname-label {
+    grid-area: lname-label;
+}
+
+.lname {
+    grid-area: lname;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.email-label {
+    grid-area: email-label;
+}
+
+.email {
+    grid-area: email;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.password-label {
+    grid-area: password-label;
+}
+
+.password {
+    grid-area: password;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.confirm-password-label {
+    grid-area: confirm-label;
+}
+
+.confirm-password {
+    grid-area: confirm;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.privacy-policy {
+    grid-area: privacy;
+    /* position: absolute;
+    margin-left: 0px; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.empty {
+    grid-area: empty;
+}
+
+.btn-register {
+    grid-area: button;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #ae3c33;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: none; 
+} 
+

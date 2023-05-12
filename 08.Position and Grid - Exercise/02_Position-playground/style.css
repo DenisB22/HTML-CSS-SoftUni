@@ -1,0 +1,33 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.one {
+    background-image: linear-gradient(90deg, rgb(27,97,157), rgb(60,189,161));
+}
+
+.two {
+    background-image: linear-gradient(90deg, rgb(170,54,115), rgb(209,125,26));
+}
+
+.card  {
+    display: block;
+    position: relative;
+}
+
+div section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+i {
+    position: absolute;
+    right: 510px;
+    bottom: 10px;
+}

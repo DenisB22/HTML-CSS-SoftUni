@@ -1,0 +1,81 @@
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+ul li {
+    box-sizing: content-box;
+    background-color: rgb(238,238,238);
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    border-radius: 100%;
+}
+
+ul {
+    word-spacing: 0.5em;
+}
+
+ul a {
+    border-radius: 50%;
+}
+
+ul i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;  
+    color: black;
+}
+
+ul i.fa-facebook-square:hover {
+    color: #3b5998;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+ul i.fa-twitter:hover {
+    color: #00abec;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+ul i.fa-google-plus:hover {
+    color: #df573f;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+ul i.fa-linkedin:hover {
+    color: #1674a5;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+ul i.fa-instagram:hover {
+    color: #9fcae2;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+ul {
+    display: inline-block;
+}
+
+

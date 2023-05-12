@@ -1,0 +1,182 @@
+body {
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 810px;
+    width: 100vw;
+    background-image: url('images/landing-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+header nav ul li button {
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: rgb(55,5,17);
+    font-weight: 400;
+}
+
+.info {
+    width: 45%;
+    margin-top: 360px;
+}
+
+.info .prime {
+    font-size: 26px;
+}
+
+.info .prime span {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.info button {
+    border-radius: 40px;
+    color: #fff;
+    background-color: rgb(55,5,17);
+    font-weight: 400;
+    width: 160px;
+    height: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 1250px;
+    width: 100vw;
+}
+
+.container-main {
+    width: 1000px;
+    height: 100%;
+}
+
+.container-main .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container-main .cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    gap: 40px;
+    margin-left: 20px;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    align-items: center;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card button {
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+}
+
+.card p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    background-color: #000000;
+    height: 280px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 1000px;
+    height: 100%;
+
+}
+
+.container-footer div {
+    color: #fff;
+}
+
+.container-footer .first, .second, .third, .fourth {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.container-footer .fourth ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-footer .fourth ul li {
+    margin-right: 25px;
+}
+

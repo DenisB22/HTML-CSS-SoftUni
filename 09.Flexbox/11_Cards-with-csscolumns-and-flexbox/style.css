@@ -1,0 +1,564 @@
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.masonry {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 2100px;
+}
+
+.masonry section.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 950px;
+    gap: 20px;
+    position: relative;
+    /* margin-left: 100px; */
+}
+
+.masonry>h2 {
+    
+}
+
+.card-first {
+    /* margin-top: 70px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 500px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-first img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-first h3, p {
+    padding-left: 20px;
+}
+
+.card-first footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+
+.card-second {
+    /* margin-top: 70px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 600px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-second img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-second h3, p {
+    padding-left: 20px;
+}
+
+.card-second footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-third {
+    /* margin-top: 70px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-third img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-third h3, p {
+    padding-left: 20px;
+}
+
+.card-third footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+
+.card-fourth {
+    margin-top: 524px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 600px;
+    position: absolute;
+    background-color: #fff;
+}
+
+.card-fourth img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-fourth h3, p {
+    padding-left: 20px;
+}
+
+.card-fourth footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+
+.card-fifth {
+    /* margin-top: 70px; */
+    margin-top: 624px;
+    margin-left: 323px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 500px;
+    position: absolute;
+    background-color: #fff;
+
+}
+
+.card-fifth img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-fifth h3, p {
+    padding-left: 20px;
+}
+
+.card-fifth footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+
+.card-sixth {
+    /* margin-top: 70px; */
+    margin-top: 824px;
+    margin-left: 647px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 600px;
+    position: absolute;
+    background-color: #fff;
+
+}
+
+.card-sixth img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-sixth h3, p {
+    padding-left: 20px;
+}
+
+.card-sixth footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+
+.card-seventh {
+    /* margin-top: 70px; */
+    margin-top: 1148px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: absolute;
+    background-color: #fff;
+
+}
+
+.card-seventh img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-seventh h3, p {
+    padding-left: 20px;
+}
+
+.card-seventh footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-eight {
+    /* margin-top: 70px; */
+    margin-top: 1148px;
+    margin-left: 324px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 600px;
+    position: absolute;
+    background-color: #fff;
+
+}
+
+.card-eight img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-eight h3, p {
+    padding-left: 20px;
+}
+
+.card-eight footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+
+.cards-layout-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.cards-layout-flex section.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 950px;
+    gap: 20px;
+    position: relative;
+    /* margin-left: 100px; */
+}
+
+.card-first-flex {
+    /* margin-top: 70px; */
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-first-flex img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-first-flex h3, p {
+    padding-left: 20px;
+}
+
+.card-first-flex footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-second-flex {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-second-flex img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-second-flex h3, p {
+    padding-left: 20px;
+}
+
+.card-second-flex footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-third-flex {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-third-flex img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-third-flex h3, p {
+    padding-left: 20px;
+}
+
+.card-third-flex footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-fourth-flex {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-fourth-flex img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-fourth-flex h3, p {
+    padding-left: 20px;
+}
+
+.card-fourth-flex footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-fifth-flex {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-fifth-flex img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-fifth-flex h3, p {
+    padding-left: 20px;
+}
+
+.card-fifth-flex footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-sixth-flex {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-sixth-flex img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-sixth-flex h3, p {
+    padding-left: 20px;
+}
+
+.card-sixth-flex footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-seventh-flex {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-seventh-flex img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-seventh-flex h3, p {
+    padding-left: 20px;
+}
+
+.card-seventh-flex footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+.card-eight-flex {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 800px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-eight-flex img {
+    overflow: hidden;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card-eight-flex h3, p {
+    padding-left: 20px;
+}
+
+.card-eight-flex footer {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    border-top: 2px solid lightgray;
+    border-top-width: 100%;
+}
+
+
